@@ -7,16 +7,23 @@ Report suspected vulnerabilities privately through GitHub's
 open the affected repository, go to the **Security** tab, and choose **Report a
 vulnerability**.
 
-Please do not open a public issue or pull request for a suspected
-vulnerability.
+If **Report a vulnerability** is unavailable, open an issue titled **Private
+security reporting requested**, asking the maintainer to enable private
+vulnerability reporting or establish a private reporting channel. Include no
+vulnerability details, affected endpoints, reproduction steps, credentials or
+other sensitive information. Wait for the private channel before sending the
+report.
+
+Do not disclose suspected vulnerabilities in public issues or pull requests.
 
 Useful reports include what an attacker could do, the affected repository and
 version or commit, and the steps to reproduce it.
 
 ## Scope
 
-snowball projects are static sites and small stateless services. They hold no
-user accounts and no user data. The most useful reports concern exposed
+Consult the affected repository for its current architecture, storage and data
+handling. A static public interface can have separate ingestion jobs, local
+storage or supporting services. Useful reports concern exposed
 credentials, a server-side request or injection path, a dependency with a known
 exploited vulnerability, or data published that should not have been.
 
@@ -30,6 +37,6 @@ Only the current published version of each project is supported. Fixes land on
 
 ## Expectations
 
-These are personal, zero-cost projects maintained by one founder. There is no
-paid bounty and no guaranteed response time. Credible reports will be
-acknowledged and addressed as soon as is practical.
+These projects are maintained by one founder. There is no paid bounty and no
+guaranteed response time. Credible reports will be acknowledged and addressed
+as soon as is practical.
