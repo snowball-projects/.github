@@ -1,0 +1,16 @@
+name: Idea
+description: Suggest an idea.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: the-idea
+    attributes:
+      label: The idea
+    validations:
+      required: true
+  - type: textarea
+    id: why-it-helps
+    attributes:
+      label: Why it helps
+    validations:
+      required: true
