@@ -4,7 +4,7 @@ snowball is an open-source software lab making free apps.
 
 - sideline: [fantasy football injury comparator](https://snowball-projects.github.io/sideline/)
 - kickoff: [sports event calendar](https://snowball-projects.github.io/kickoff/)
-- fairway: [open golf course data and drive-time map](https://snowball-projects.github.io/fairway/)
+- fairway: [open golf course data and map](https://snowball-projects.github.io/fairway/)
 
 ## License
 
